@@ -294,7 +294,7 @@ export const projects = [
   },
   {
     id: 95,
-    title: "Habbit Tracker",
+    title: "Habit Tracker",
     date: "Apr 2023 - May 2023",
     description:
       "A comprehensive Habit Tracker application that enables users to define and monitor their habits on a daily and weekly basis. It features user authentication, the ability to create and list habits, and provides a retrospective view of the previous week’s habits with an option to mark them as complete. This full-stack application is built with Node.js, Express, HTML, and CSS",
@@ -327,7 +327,26 @@ export const projects = [
     // ],
   },
   {
-    id: 50,
+    id: 200,
+    title: "JUNOON",
+    date: "Mar 2020 - June 2020",
+    association: "MIT Muzaffarpur",
+    description:
+      "I developed a compact Android application, weighing less than 4MB, that serves as a hub for updates on cultural events. This lightweight app has been successful, garnering nearly 1000 downloads. The application was built using Java and XML, and integrated with Firebase to provide enhanced features. Notably, Firebase was employed to facilitate efficient push and in-app notifications, significantly improving the user experience and ensuring effective dissemination of information. This combination of lightweight design and advanced features has made the app a popular choice for users seeking updates on cultural events.",
+    image:
+      "https://i.ibb.co/HpHhSMY/2d-graph-new-1.png",
+    tags: [
+      "Java",
+      "MVC",
+      "XML",
+      "Firebase",
+      "FCM"
+    ],
+    category: "android app",
+    webapp: "https://play.google.com/store/apps/details?id=com.mitm.junoon&hl=en",
+  },
+  {
+    id: 201,
     title: "Happy Hours ",
     date: "Nov 2022 - Aug 2023",
     association: "Quantum IT Innovation",
@@ -341,10 +360,133 @@ export const projects = [
       "MVVM",
       "XML",
       "RESTful APIs",
+      "Retrofit"
     ],
     category: "android app",
     webapp: "https://play.google.com/store/apps/details?id=com.quantum.happyhours",
   },
+  {
+    id: 202,
+    title: "2D Graph Plotter",
+    date: "July 2023 - Sept 2023",
+    association: "Quantum IT Innovation",
+    description: "Multilingual Android application that enables users to upload, update, and download text files, specifically in a comma-separated format where each line contains three values: pitch, azimuth, and depth. This app not only manages these specific text files but also visualizes the data in X-Y, Y-Z, and X-Z graphs, thereby providing valuable insights. To enhance the user experience, I utilized a variety of technologies including Kotlin for the core programming, Jetpack Compose UI for the user interface, Room Database and Data Store for data management, Dagger Hilt for dependency injection, and the mikephil charting library for data visualization.",
+    image:
+      "https://i.ibb.co/GMyTjM3/2d-graph-new.png",
+    tags: [
+      "Android",
+      "Kotlin",
+      "MVVM",
+      "Jetpack Compose",
+      "ROOM Database",
+    ],
+    category: "android app",
+    webapp: "https://www.dropbox.com/scl/fi/0du69j3559yh37if0lw63/johan_2d.apk?rlkey=pkkj06nnly3bwid4lz6rrwhho&dl=0",
+  },
+  {
+    id: 203,
+    title: "KUUBS (User) ",
+    date: "Oct 2022 - Feb 2023",
+    association: "Quantum IT Innovation",
+    description:
+      "Lorem Ipsum",
+    image:
+      "https://i.ibb.co/CPFNydP/kuubs-User.png",
+    tags: [
+      "Android",
+      "Kotlin",
+      "MVVM",
+      "XML",
+      "RESTful APIs",
+      "Retrofit",
+      "Stripe Payments"
+    ],
+    category: "android app",
+    webapp: "https://play.google.com/store/apps/details?id=com.kuubs.rental",
+  },
+  {
+    id: 204,
+    title: "KUUBS (Provider)",
+    date: "Dec 2022 - Apr 2023",
+    association: "Quantum IT Innovation",
+    description:
+      "Lorem Ipsum",
+    image:
+      "https://i.ibb.co/3YvFdrv/kuubs-Provider-1.png",
+    tags: [
+      "Android",
+      "Kotlin",
+      "MVVM",
+      "XML",
+      "RESTful APIs",
+      "Retrofit",
+      "Stripe Payments"
+    ],
+    category: "android app",
+    webapp: "https://play.google.com/store/apps/details?id=com.kuubs.provider",
+  },
+  {
+    id: 205,
+    title: "Dogszone",
+    date: "Dec 2020 - Mar 2021",
+    association: "WOWpets.in",
+    description:
+      "I spearheaded the design and development of the company's Android app. Notably, I integrated YouTube videos within the app, employed Firebase for backend functionalities such as push notifications and real-time database operations, and embedded the company's website into the application. This immersive experience provided a deep dive into Java, XML, and Firebase technologies.",
+    image:
+      "https://i.ibb.co/fxGwkhC/Dogszone.png",
+    tags: [
+      "JAVA",
+      "XML",
+      "Firebase"
+    ],
+    category: "android app",
+    webapp: "https://play.google.com/store/apps/details?id=app.dogszone",
+  },
+  {
+    id: 206,
+    title: "Happiness Calculator",
+    date: "Oct 2023 - Dec 2023",
+    association: "Quantum IT Innovation",
+    description:
+      "Lorem Ipsum.",
+    image:
+      "https://i.ibb.co/JpSkn0y/Happiness-Calculator.png",
+    tags: [
+      "Kotlin",
+      "MVVM",
+      "Jetpack Compose",
+      "Retrofit",
+      "Dagger Hilt",
+      "Stripe Payments"
+    ],
+    category: "android app",
+  },
+  {
+    id: 207,
+    title: "At Ease",
+    date: "Feb 2023 - Dec 2023",
+    association: "Quantum IT Innovation",
+    description:
+      "Lorem Ipsum.",
+    image:
+      "https://i.ibb.co/y00Dh0Y/At-Ease.png",
+    tags: [
+      "Kotlin",
+      "Clean Architecture",
+      "XML",
+      "Retrofit",
+      "Dagger Hilt"
+    ],
+    category: "android app",
+  },
+
+
+
+
+
+
+
+
   // {
   //   id: 2,
   //   title: "Brain Tumor Detection",
