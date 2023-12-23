@@ -50,9 +50,19 @@ const Date = styled.div`
     @media only screen and (max-width: 768px){
         font-size: 12px;
     }
-`
+`;
 
 
+
+const Association = styled.div`
+    font-size: 16px;
+    margin: 2px 6px;
+    font-weight: 400;
+    color: ${({ theme }) => theme.text_secondary};
+    @media only screen and (max-width: 768px){
+        font-size: 12px;
+    }
+`;
 
 const Desc = styled.div`
     font-size: 16px;
@@ -184,6 +194,7 @@ const Button = styled.a`
 
 const index = ({ openModal, setOpenModal }) => {
     const project = openModal?.project;
+    console.log(`project : ${project.github}`)
     return (
         <Modal open={true} onClose={() => setOpenModal({ state: false, project: null })}>
             <Container>
@@ -199,7 +210,8 @@ const index = ({ openModal, setOpenModal }) => {
                     />
                     <Image src={project?.image} />
                     <Title>{project?.title}</Title>
-                    <Date>{project.date}</Date>
+                    <Date>{project.Date}</Date>
+
                     <Tags>
                         {project?.tags.map((tag) => (
                             <Tag>{tag}</Tag>
@@ -214,10 +226,10 @@ const index = ({ openModal, setOpenModal }) => {
                                     <Member>
                                         <MemberImage src={member.img} />
                                         <MemberName>{member.name}</MemberName>
-                                        <a href={member.github} target="new" style={{textDecoration: 'none', color: 'inherit'}}>
+                                        <a href={member.github} target="new" style={{ textDecoration: 'none', color: 'inherit' }}>
                                             <GitHub />
                                         </a>
-                                        <a href={member.linkedin} target="new" style={{textDecoration: 'none', color: 'inherit'}}>
+                                        <a href={member.linkedin} target="new" style={{ textDecoration: 'none', color: 'inherit' }}>
                                             <LinkedIn />
                                         </a>
                                     </Member>
@@ -226,8 +238,10 @@ const index = ({ openModal, setOpenModal }) => {
                         </>
                     )}
                     <ButtonGroup>
-                        <Button dull href={project?.github} target='new'>View Code</Button>
-                        <Button href={project?.webapp} target='new'>View Live App</Button>
+                        {project?.github && (
+                            <Button dull href={project.github} target="new">View Code </Button>)}
+                        {project?.webapp && (
+                            <Button href={project.webapp} target="new">View Live App</Button>)}
                     </ButtonGroup>
                 </Wrapper>
             </Container>
