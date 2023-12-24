@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Priyam-Portfolio/static/css/main.bf538fe7.css",
-    "main.js": "/Priyam-Portfolio/static/js/main.8f4ad91e.js",
+    "main.js": "/Priyam-Portfolio/static/js/main.cfaf2874.js",
     "static/media/HeroImage.jpg": "/Priyam-Portfolio/static/media/HeroImage.41342bbab87b7e9aac58.jpg",
     "index.html": "/Priyam-Portfolio/index.html",
     "main.bf538fe7.css.map": "/Priyam-Portfolio/static/css/main.bf538fe7.css.map",
-    "main.8f4ad91e.js.map": "/Priyam-Portfolio/static/js/main.8f4ad91e.js.map"
+    "main.cfaf2874.js.map": "/Priyam-Portfolio/static/js/main.cfaf2874.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.8f4ad91e.js"
+    "static/js/main.cfaf2874.js"
   ]
 }
