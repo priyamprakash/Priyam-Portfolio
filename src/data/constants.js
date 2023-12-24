@@ -274,6 +274,25 @@ export const education = [
 
 export const projects = [
   {
+    id: 99,
+    title: "My Portolio",
+    date: "Dec 2023 - Jan 2024",
+    description:
+      "An intuitive movie review application that allows users to effortlessly search for movies, access detailed descriptions and ratings, manage their favorite movie list with ease, and experience a sleek interface, all built with HTML, CSS, and Vanilla JS",
+    image:
+      "https://i.ibb.co/BG6RyGx/Portfolio.png",
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "UI Design"
+    ],
+    category: "web app",
+    github: "https://github.com/priyamprakash/Priyam-Portfolio",
+    webapp: "https://priyamprakash.github.io/Priyam-Portfolio",
+  },
+  {
     id: 100,
     title: "IMDB Clone",
     date: "Jun 2023 - Jul 2023",
