@@ -1,7 +1,7 @@
 {
-  "name": "priyam-prakash-portfolio",
+  "name": "Priyam-Portfolio",
   "version": "0.1.0",
-  "homepage": "https://github.com/priyamprakash/",
+  "homepage": "https://priyamprakash.github.io/Priyam-Portfolio",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
