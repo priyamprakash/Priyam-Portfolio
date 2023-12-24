@@ -278,7 +278,7 @@ export const projects = [
     title: "Main Portolio",
     date: "Dec 2023 - Jan 2024",
     description:
-      "An intuitive movie review application that allows users to effortlessly search for movies, access detailed descriptions and ratings, manage their favorite movie list with ease, and experience a sleek interface, all built with HTML, CSS, and Vanilla JS",
+      "A web portfolio to showcase skills, projects etc.",
     image:
       "https://i.ibb.co/BG6RyGx/Portfolio.png",
     tags: [
